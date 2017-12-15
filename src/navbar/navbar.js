@@ -6,16 +6,8 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
-  import {
-    BrowserRouter as Router,
-    Route,
-    Link
-  } from 'react-router-dom';
+  NavLink
+} from 'reactstrap';
 
 export default class AppNavbar extends Component {
   constructor(props) {

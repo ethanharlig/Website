@@ -113,7 +113,7 @@ export default class Projects extends Component {
                     <a href="https://github.com/ethanharlig/Website" target="_blank" rel="noopener noreferrer">Website</a>
                   </ListGroupItemHeading>
                   <ListGroupItemText>
-                    When creating the RideTrackr, we were unsure whether to use
+                    When creating RideTrackr, we were unsure whether to use
                     Angular or ReactJS for our frontend. Ultimately, we went
                     with Angular, but I was left with an urge to still figure
                     out how ReactJS worked and how powerful it was. That led to

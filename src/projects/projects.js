@@ -20,7 +20,7 @@ export default class Projects extends Component {
               <ListGroup>
                 <ListGroupItem>
                   <ListGroupItemHeading>
-                    <a href="https://ridetrackr.io" target="_blank">RideTrackr</a>
+                    <a href="https://ridetrackr.io" target="_blank" rel="noopener noreferrer">RideTrackr</a>
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     RideTrackr is a web service (soon-to-be native application)
@@ -29,7 +29,7 @@ export default class Projects extends Component {
                     time and can also request rides as a passenger.
                   </ListGroupItemText>
                   <ListGroupItemText>
-                    We (<a href="https://github.com/collindutter" target="_blank">
+                    We (<a href="https://github.com/collindutter" target="_blank" rel="noopener noreferrer">
                       Collin Dutter{' '}
                     </a>{' '}
                     and myself) created RideTrackr with a market of fraternities
@@ -45,7 +45,7 @@ export default class Projects extends Component {
                 </ListGroupItem>
                 <ListGroupItem>
                   <ListGroupItemHeading>
-                    <a href="https://cpe305spring17.github.io/spring2017-project-ethanharlig/" target="_blank">
+                    <a href="https://cpe305spring17.github.io/spring2017-project-ethanharlig/" target="_blank" rel="noopener noreferrer">
                       Budget Brews
                     </a>
                   </ListGroupItemHeading>
@@ -65,18 +65,18 @@ export default class Projects extends Component {
                     When I designed this site, I was still a web development
                     newbie, so please take that into consideration if you look
                     at the code. The code for Budget Brews can be found{' '}
-                    <a href="https://github.com/ethanharlig/Budget-Brews" target="_blank">
+                    <a href="https://github.com/ethanharlig/Budget-Brews" target="_blank" rel="noopener noreferrer">
                       here
                     </a>{' '}
                     and the documentation can be found{' '}
-                    <a href="https://cpe305spring17.github.io/spring2017-project-ethanharlig/views/info.html" target="_blank">
+                    <a href="https://cpe305spring17.github.io/spring2017-project-ethanharlig/views/info.html" target="_blank" rel="noopener noreferrer">
                       here
                     </a>.
                   </ListGroupItemText>
                 </ListGroupItem>
                 <ListGroupItem>
                   <ListGroupItemHeading>
-                    <a href="https://github.com/ethanharlig/Reddit-Slackbot" target="_blank">
+                    <a href="https://github.com/ethanharlig/Reddit-Slackbot" target="_blank" rel="noopener noreferrer">
                       Reddit Slackbot
                     </a>
                   </ListGroupItemHeading>
@@ -90,7 +90,7 @@ export default class Projects extends Component {
                 </ListGroupItem>
                 <ListGroupItem>
                   <ListGroupItemHeading>
-                    <a href="https://github.com/ethanharlig/Reddit-Notifications" target="_blank">
+                    <a href="https://github.com/ethanharlig/Reddit-Notifications" target="_blank" rel="noopener noreferrer">
                       Reddit Notifications
                     </a>
                   </ListGroupItemHeading>
@@ -101,7 +101,7 @@ export default class Projects extends Component {
                   <ListGroupItemText>
                     Specifically, when I was building a PC, I wanted to be
                     alerted when new deals were posted on{' '}
-                    <a href="https://reddit.com/r/buildapcsales" target="_blank">
+                    <a href="https://reddit.com/r/buildapcsales" target="_blank" rel="noopener noreferrer">
                       r/buildapcsales
                     </a>{' '}
                     so that I could get the best deals on my parts. This
@@ -110,7 +110,7 @@ export default class Projects extends Component {
                 </ListGroupItem>
                 <ListGroupItem>
                   <ListGroupItemHeading>
-                    <a href="https://github.com/ethanharlig/Website" target="_blank">Website</a>
+                    <a href="https://github.com/ethanharlig/Website" target="_blank" rel="noopener noreferrer">Website</a>
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     When creating the RideTrackr, we were unsure whether to use

@@ -32,7 +32,7 @@ const Home = props => {
                 </ListGroupItemText>
                 <ListGroupItemText>
                   I am also an Associate Software Developer at {' '}
-                  <a href="http://www.thinglogix.com" target="_blank">ThingLogix</a>, an IoT
+                  <a href="http://www.thinglogix.com" target="_blank" rel="noopener noreferrer">ThingLogix</a>, an IoT
                   company. I architect and develop Internet of Things solutions
                   built on AWS.
                 </ListGroupItemText>
@@ -86,16 +86,16 @@ const Home = props => {
                 </ListGroupItemHeading>
                 <ListGroupItemText>
                   I have recently been heavily invested in a personal project, {' '}
-                  <a href="https://ridetrackr.io" target="_blank">RideTrackr</a>, where I lead
+                  <a href="https://ridetrackr.io" target="_blank" rel="noopener noreferrer">RideTrackr</a>, where I lead
                   backend development and worked on the frontend in conjunction
                   with {' '}
-                  <a href="https://github.com/collindutter" target="_blank">Collin Dutter</a>.
+                  <a href="https://github.com/collindutter" target="_blank" rel="noopener noreferrer">Collin Dutter</a>.
                 </ListGroupItemText>
                 <ListGroupItemText>
                   I also write a bunch of code, but a lot of it tends to be
                   small scripts, like Slack bots, that I don't end up uploading
                   to my{' '}
-                  <a href="https://github.com/ethanharlig" target="_blank">GitHub</a>.
+                  <a href="https://github.com/ethanharlig" target="_blank" rel="noopener noreferrer">GitHub</a>.
                 </ListGroupItemText>
                 <ListGroupItemText>
                   If you are interested in checking out more of my projects,
@@ -110,7 +110,7 @@ const Home = props => {
                 <ListGroupItemText>
                   If you like what you see, or you are interested in
                   collaborating on anything, feel free to {' '}
-                  <a href="mailto:ethan.harlig@gmail.com" target="_blank">email me</a> and we
+                  <a href="mailto:ethan.harlig@gmail.com" target="_blank" rel="noopener noreferrer">email me</a> and we
                   can talk!
                 </ListGroupItemText>
               </ListGroupItem>

@@ -6,6 +6,7 @@ import {
   CardBody,
   CardTitle,
   CardSubtitle,
+  Container,
   ListGroup,
   ListGroupItem,
   ListGroupItemHeading,
@@ -16,7 +17,7 @@ import meAndTommy from '../img/me-and-tommy.jpg';
 const Home = props => {
   return (
     <div>
-      <h1 style={{textAlign: 'center'}}>Ethan Harlig</h1>
+      <h1 style={{ textAlign: 'center' }}>Ethan Harlig</h1>
       <Card>
         <CardBody>
           <CardImg src={meAndTommy} />
@@ -50,10 +51,36 @@ const Home = props => {
                   Neat! So what technologies do you know?
                 </ListGroupItemHeading>
                 <ListGroupItemText>
-                  I work mainly with AWS Lambda, API Gateway, DynamoDB, IoT,
-                  Kinesis, and other AWS services. For these solutions, I work
-                  with Python, Java, Node.js, AngularJS, NoSQL, MySQL, and other
-                  technologies.
+                  I'm glad you asked! I am proficient with:
+                  <ul>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Java</li>
+                    <li>JavaScript</li>
+                    <li>Typescript</li>
+                    <li>C (unfortunately)</li>
+                    <li>AngularJS</li>
+                    <li>Angular 2+</li>
+                    <li>MySQL</li>
+                    <li>NoSQL</li>
+                  </ul>
+                  And I dabble with:
+                  <ul>
+                    <li>Node.js</li>
+                    <li>ReactJS (this site)</li>
+                    <li>NativeScript</li>
+                  </ul>
+                  I also work a lot with AWS, specifically:
+                  <ul>
+                    <li>Lambda</li>
+                    <li>API Gateway</li>
+                    <li>DynamoDB</li>
+                    <li>IoT</li>
+                    <li>S3</li>
+                    <li>Kinesis</li>
+                    <li>And more!</li>
+                  </ul>
                 </ListGroupItemText>
               </ListGroupItem>
               <ListGroupItem>

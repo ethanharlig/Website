@@ -54,28 +54,82 @@ export default class Projects extends Component {
                     </a>
                   </ListGroupItemHeading>
                   <ListGroupItemText>
-                      Budget Brews is 
+                    Budget Brews is a site designed to provide crowdsourced data
+                    of beer prices. As a college student, I was always searching
+                    for the cheapest 30-pack of cheap beer, and I thought that
+                    the best way to find it was to crowdsource it.
                   </ListGroupItemText>
                   <ListGroupItemText>
-                    The code for Budget Brews can be found{' '}
+                    Users can create accounts, update beer prices,
+                    upvote/downvote reports of prices to show their validity.
+                    Budget Brews is also a serverless application, employing
+                    many AWS services.
+                  </ListGroupItemText>
+                  <ListGroupItemText>
+                    When I designed this site, I was still a web development
+                    newbie, so please take that into consideration if you look
+                    at the code. The code for Budget Brews can be found{' '}
                     <a href="https://github.com/ethanharlig/Budget-Brews">
+                      here
+                    </a>{' '}
+                    and the documentation can be found{' '}
+                    <a href="https://cpe305spring17.github.io/spring2017-project-ethanharlig/views/info.html">
                       here.
                     </a>
                   </ListGroupItemText>
                 </ListGroupItem>
                 <ListGroupItem>
-                  <ListGroupItemHeading>Reddit Slackbot</ListGroupItemHeading>
-                  <ListGroupItemText />
+                  <ListGroupItemHeading>
+                    <a href="https://github.com/ethanharlig/Reddit-Slackbot">
+                      Reddit Slackbot
+                    </a>
+                  </ListGroupItemHeading>
+                  <ListGroupItemText>
+                    This Reddit Slackbot allows users to mention the bot in a
+                    Slack channel, and the bot will respond with different
+                    Reddit posts from arguments provided by the user. The bot,
+                    unfortunately, it not serverless, and runs on an AWS EC2
+                    server.
+                  </ListGroupItemText>
                 </ListGroupItem>
                 <ListGroupItem>
                   <ListGroupItemHeading>
-                    Reddit Notifications
+                    <a href="https://github.com/ethanharlig/Reddit-Notifications">
+                      Reddit Notifications
+                    </a>
                   </ListGroupItemHeading>
-                  <ListGroupItemText />
+                  <ListGroupItemText>
+                    Reddit Notifications was built to notify users when posts
+                    that meet certain criteria are posted on certain subreddits.
+                  </ListGroupItemText>
+                  <ListGroupItemText>
+                    Specifically, when I was building a PC, I wanted to be
+                    alerted when new deals were posted on{' '}
+                    <a href="https://reddit.com/r/buildapcsales">
+                      r/buildapcsales
+                    </a>{' '}
+                    so that I could get the best deals on my parts. This
+                    application runs on an AWS EC2 server.
+                  </ListGroupItemText>
                 </ListGroupItem>
                 <ListGroupItem>
-                  <ListGroupItemHeading>Website</ListGroupItemHeading>
-                  <ListGroupItemText />
+                  <ListGroupItemHeading>
+                    <a href="https://github.com/ethanharlig/Website">Website</a>
+                  </ListGroupItemHeading>
+                  <ListGroupItemText>
+                    When creating the RideTrackr, we were unsure whether to use
+                    Angular or ReactJS for our frontend. Ultimately, we went
+                    with Angular, but I was left with an urge to still figure
+                    out how ReactJS worked and how powerful it was. That led to
+                    the creation of this site, where I can talk about myself and
+                    learn about ReactJS in the process.
+                  </ListGroupItemText>
+                  <ListGroupItemText>
+                    This website is still a work in progress, as I am always
+                    trying to teach myself new technologies, and I want to get
+                    familiar with the features of ReactJS. The website is hosted
+                    on AWS S3 and CloudFront.
+                  </ListGroupItemText>
                 </ListGroupItem>
               </ListGroup>
             </CardText>

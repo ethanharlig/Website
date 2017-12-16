@@ -114,7 +114,7 @@ const Home = props => {
                 </ListGroupItemText>
                 <ListGroupItemText>
                   I also write a bunch of code, but a lot of it tends to be
-                  small scripts, like Slack bots, that I don't end up uploading
+                  small scripts, like Slack bots, that are not uploaded 
                   to my{' '}
                   <a
                     href="https://github.com/ethanharlig"

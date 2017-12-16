@@ -22,7 +22,7 @@ const Home = props => {
             <ListGroup>
               <ListGroupItem>
                 <ListGroupItemHeading>
-                  So just who the heck are you and who do you think you are
+                  So just who are you and who do you think you are
                   putting a huge picture of you and your dog up there?
                 </ListGroupItemHeading>
                 <ListGroupItemText>
@@ -45,7 +45,7 @@ const Home = props => {
               </ListGroupItem>
               <ListGroupItem>
                 <ListGroupItemHeading>
-                  Neat! So what technologies do you know?
+                  So what technologies do you know?
                 </ListGroupItemHeading>
                 <ListGroupItemText>
                   I'm glad you asked! I am proficient with:
@@ -82,7 +82,7 @@ const Home = props => {
               </ListGroupItem>
               <ListGroupItem>
                 <ListGroupItemHeading>
-                  Dang wow; that's a lot! Tell me about your personal projects.
+                  Tell me about your personal projects.
                 </ListGroupItemHeading>
                 <ListGroupItemText>
                   I have recently been heavily invested in a personal project, {' '}
@@ -105,7 +105,7 @@ const Home = props => {
               <ListGroupItem>
                 <ListGroupItemHeading>
                   Holy moly you sound like someone I want to talk to. Just how
-                  the heck do I reach you?
+                  do I reach you?
                 </ListGroupItemHeading>
                 <ListGroupItemText>
                   If you like what you see, or you are interested in

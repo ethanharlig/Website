@@ -23,7 +23,7 @@ export default class Projects extends Component {
                     <a href="https://ridetrackr.io" target="_blank" rel="noopener noreferrer">RideTrackr</a>
                   </ListGroupItemHeading>
                   <ListGroupItemText>
-                    RideTrackr is a web service (soon-to-be native application)
+                    RideTrackr is a web application (soon-to-be native application)
                     that allows organizations to easily maintain an Uber-like
                     ride system. Users can become a driver for a set period of
                     time and can also request rides as a passenger.

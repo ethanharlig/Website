@@ -14,7 +14,7 @@ import meAndTommy from '../img/me-and-tommy.jpg';
 const Home = props => {
   return (
     <div>
-      <h1 style={{ textAlign: 'center' }}>Ethan Harlig</h1>
+      <h1 style={{ textAlign: 'center' }}>About me</h1>
       <Card>
         <CardBody>
           <CardImg src={meAndTommy} />
@@ -22,7 +22,7 @@ const Home = props => {
             <ListGroup>
               <ListGroupItem>
                 <ListGroupItemHeading>
-                  So just who are you and who do you think you are
+                  So who are you and just who do you think you are
                   putting a huge picture of you and your dog up there?
                 </ListGroupItemHeading>
                 <ListGroupItemText>

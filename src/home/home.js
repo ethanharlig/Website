@@ -55,7 +55,7 @@ const Home = props => {
                 </ListGroupItemHeading>
               <hr/>
                 <ListGroupItemText>
-                  I'm glad you asked! I am proficient with:
+                  I am glad you asked! I am proficient with:
                   <ul>
                     <li>Python</li>
                     <li>Java</li>

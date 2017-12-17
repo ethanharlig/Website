@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import axios from 'axios';
 
 export default class Ticker extends Component {
   constructor(props) {
@@ -17,8 +16,9 @@ export default class Ticker extends Component {
   }
 
   Price = () => {
-    axios.get('https://api.binance.com/api/v1/ticker/allPrices').then(res => {
-      const data = res.data;
+    fetch('https://api.binance.com/api/v1/ticker/allPrices').then(res => res.json()).then(res => {
+      console.log(res);
+      const data = res;
       let btsBtc, btcUsd;
       for (var ndx = 0; ndx < data.length; ndx++) {
         if (data[ndx]['symbol'] === 'BTCUSDT') {

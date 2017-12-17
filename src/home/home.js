@@ -54,7 +54,7 @@ const Home = props => {
                   So what technologies do you know?
                 </ListGroupItemHeading>
               <hr/>
-                <ListGroupItemText>
+                <ListGroupItemText tag="p">
                   I am glad you asked! I am proficient with:
                   <ul>
                     <li>Python</li>

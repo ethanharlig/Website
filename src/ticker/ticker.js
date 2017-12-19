@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faSpinner, faEllipsisH } from '@fortawesome/fontawesome-free-solid';
+import { faSpinner } from '@fortawesome/fontawesome-free-solid';
 
 export default class Ticker extends Component {
   constructor(props) {

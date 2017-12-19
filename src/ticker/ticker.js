@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import FontAwesomeIcon from '@fortawesome/react-fontawesome';
+import { faSpinner, faEllipsisH } from '@fortawesome/fontawesome-free-solid';
 
 export default class Ticker extends Component {
   constructor(props) {
@@ -6,33 +8,33 @@ export default class Ticker extends Component {
 
     this.state = {
       price: 0,
-      numBts: 3808.188
+      numBts: 3808.188,
+      isLoading: true,
+      isRefreshing: false
     };
   }
 
   componentDidMount() {
     this.Price();
-    this.interval = setInterval(this.Price, 1000);
+    this.interval = setInterval(this.Price, 5000);
   }
 
   Price = () => {
-    fetch('https://api.binance.com/api/v1/ticker/allPrices').then(res => res.json()).then(res => {
-      console.log(res);
-      const data = res;
-      let btsBtc, btcUsd;
-      for (var ndx = 0; ndx < data.length; ndx++) {
-        if (data[ndx]['symbol'] === 'BTCUSDT') {
-          btcUsd = data[ndx]['price'];
-        }
-        if (data[ndx]['symbol'] === 'BTSBTC') {
-          btsBtc = data[ndx]['price'];
-        }
-      }
-
+    if (!this.state.isLoading) {
       this.setState({
-        price: (parseFloat(btsBtc) * parseFloat(btcUsd)).toFixed(7)
+        isRefreshing: true
       });
-    });
+    }
+    fetch('https://muqd7picdk.execute-api.us-west-2.amazonaws.com/v1/ticker')
+      .then(res => res.json())
+      .then(res => {
+        console.log(res);
+        this.setState({
+          price: res.btsPrice.toFixed(5),
+          isLoading: false,
+          isRefreshing: false
+        });
+      });
   };
 
   handleChange = event => {
@@ -42,6 +44,39 @@ export default class Ticker extends Component {
   };
 
   render() {
+    let ticker = null;
+    let refresh = null;
+
+    if (this.state.isLoading) {
+      ticker = (
+        <div>
+          <h3>
+            Loading <FontAwesomeIcon icon={faSpinner} pulse size="lg" />
+          </h3>
+        </div>
+      );
+    } else {
+      ticker = (
+        <div>
+          <h4>BTS is currently worth ${this.state.price}</h4>
+          <br />
+          <h4>
+            You have ${(this.state.numBts * this.state.price).toFixed(2)} worth
+            of BTS
+          </h4>
+        </div>
+      );
+    }
+    if (this.state.isRefreshing) {
+      console.log('refreshing');
+      refresh = (
+        <div>
+          <h3>
+            Refreshing <FontAwesomeIcon icon={faSpinner} pulse size="lg" />
+          </h3>
+        </div>
+      );
+    }
     return (
       <div style={{ textAlign: 'center' }}>
         <h1>BTS Ticker</h1>
@@ -58,12 +93,9 @@ export default class Ticker extends Component {
           </label>
         </form>
         <hr />
-        <h4>BTS is currently worth ${this.state.price}</h4>
+        {ticker}
         <br />
-        <h4>
-          You have ${(this.state.numBts * this.state.price).toFixed(2)} worth of
-          BTS
-        </h4>
+        {refresh}
       </div>
     );
   }

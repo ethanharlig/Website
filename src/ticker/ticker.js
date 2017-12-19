@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faSpinner } from '@fortawesome/fontawesome-free-solid';
+import React, { Component } from "react";
+import FontAwesomeIcon from "@fortawesome/react-fontawesome";
+import { faSpinner } from "@fortawesome/fontawesome-free-solid";
 
 export default class Ticker extends Component {
   constructor(props) {
@@ -8,7 +8,7 @@ export default class Ticker extends Component {
 
     this.state = {
       price: 0,
-      numBts: 3808.188,
+      numBts: 0,
       isLoading: true,
       isRefreshing: false
     };
@@ -25,7 +25,7 @@ export default class Ticker extends Component {
         isRefreshing: true
       });
     }
-    fetch('https://muqd7picdk.execute-api.us-west-2.amazonaws.com/v1/ticker')
+    fetch("https://muqd7picdk.execute-api.us-west-2.amazonaws.com/v1/ticker")
       .then(res => res.json())
       .then(res => {
         this.setState({
@@ -38,7 +38,7 @@ export default class Ticker extends Component {
 
   handleChange = event => {
     this.setState({
-      numBts: event.target.value === '' ? 0 : parseFloat(event.target.value)
+      numBts: event.target.value === "" ? 0 : parseFloat(event.target.value)
     });
   };
 
@@ -55,16 +55,33 @@ export default class Ticker extends Component {
         </div>
       );
     } else {
-      ticker = (
-        <div>
-          <h4>BTS is currently worth ${this.state.price}</h4>
-          <br />
-          <h4>
-            You have ${(this.state.numBts * this.state.price).toFixed(2)} worth
-            of BTS
-          </h4>
-        </div>
-      );
+      if (this.state.numBts > 0) {
+        ticker = (
+          <div>
+            <h4>BTS is currently worth ${this.state.price}</h4>
+            <h4>
+              You have ${(this.state.numBts * this.state.price).toFixed(2)}{" "}
+              worth of BTS
+            </h4>
+          </div>
+        );
+      } else {
+        ticker = (
+          <div>
+            <h4>BTS is currently worth ${this.state.price}</h4>
+            <h4>
+              If you had 3808.188 BTS, you'd have ${(
+                3808.188 * this.state.price
+              ).toFixed(2)}{" "}
+            </h4>
+            <h4>
+              If you had 3219 BTS, you'd have ${(
+                3219 * this.state.price
+              ).toFixed(2)}{" "}
+            </h4>
+          </div>
+        );
+      }
     }
     if (this.state.isRefreshing) {
       refresh = (
@@ -76,7 +93,7 @@ export default class Ticker extends Component {
       );
     }
     return (
-      <div style={{ textAlign: 'center' }}>
+      <div style={{ textAlign: "center" }}>
         <h1>BTS Ticker</h1>
         <hr />
         <form>

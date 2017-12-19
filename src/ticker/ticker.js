@@ -28,7 +28,6 @@ export default class Ticker extends Component {
     fetch('https://muqd7picdk.execute-api.us-west-2.amazonaws.com/v1/ticker')
       .then(res => res.json())
       .then(res => {
-        console.log(res);
         this.setState({
           price: res.btsPrice.toFixed(5),
           isLoading: false,
@@ -68,7 +67,6 @@ export default class Ticker extends Component {
       );
     }
     if (this.state.isRefreshing) {
-      console.log('refreshing');
       refresh = (
         <div>
           <h3>

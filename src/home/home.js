@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Card,
   CardImg,
@@ -7,13 +7,13 @@ import {
   ListGroupItem,
   ListGroupItemHeading,
   ListGroupItemText
-} from 'reactstrap';
-import meAndTommy from '../img/me-and-tommy.jpg';
+} from "reactstrap";
+import meAndTommy from "../img/me-and-tommy.jpg";
 
 const Home = props => {
   return (
     <div>
-      <h1 style={{ textAlign: 'center' }}>About me</h1>
+      <h1 style={{ textAlign: "center" }}>About me</h1>
       <Card>
         <CardBody>
           <CardImg src={meAndTommy} />
@@ -30,7 +30,7 @@ const Home = props => {
                 University, San Luis Obispo.
               </ListGroupItemText>
               <ListGroupItemText>
-                I am also an Associate Software Developer at{' '}
+                I am also an Associate Software Developer at{" "}
                 <a
                   href="http://www.thinglogix.com"
                   target="_blank"
@@ -55,8 +55,6 @@ const Home = props => {
               <ListGroupItemText tag="p">
                 I am glad you asked! I am proficient with:
                 <ul>
-                  <li>Python</li>
-                  <li>Java</li>
                   <li>Python</li>
                   <li>Java</li>
                   <li>JavaScript</li>
@@ -93,7 +91,7 @@ const Home = props => {
               </ListGroupItemHeading>
               <hr />
               <ListGroupItemText>
-                I have recently been heavily invested in a personal project,{' '}
+                I have recently been heavily invested in a personal project,{" "}
                 <a
                   href="https://ridetrackr.io"
                   target="_blank"
@@ -101,7 +99,7 @@ const Home = props => {
                 >
                   RideTrackr
                 </a>, where I lead backend development and worked on the
-                frontend in conjunction with{' '}
+                frontend in conjunction with{" "}
                 <a
                   href="https://github.com/collindutter"
                   target="_blank"
@@ -112,7 +110,7 @@ const Home = props => {
               </ListGroupItemText>
               <ListGroupItemText>
                 I also write a bunch of code, but a lot of it tends to be small
-                scripts, like Slack bots, that are not uploaded to my{' '}
+                scripts, like Slack bots, that are not uploaded to my{" "}
                 <a
                   href="https://github.com/ethanharlig"
                   target="_blank"
@@ -123,7 +121,7 @@ const Home = props => {
               </ListGroupItemText>
               <ListGroupItemText>
                 If you are interested in checking out more of my projects, mosey
-                on over to my{' '}
+                on over to my{" "}
                 <a href="/projects" target="_blank">
                   projects page
                 </a>!
@@ -137,14 +135,14 @@ const Home = props => {
               <hr />
               <ListGroupItemText>
                 If you like what you see, or you are interested in collaborating
-                on anything, feel free to{' '}
+                on anything, feel free to{" "}
                 <a
                   href="mailto:ethan.harlig@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   email me
-                </a>{' '}
+                </a>{" "}
                 and we can talk!
               </ListGroupItemText>
             </ListGroupItem>

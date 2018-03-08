@@ -93,7 +93,7 @@ const Home = props => {
               <ListGroupItemText>
                 I have recently been heavily invested in a personal project,{" "}
                 <a
-                  href="https://ridetrackr.io"
+                  href="https://get.ridetrackr.io"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

@@ -20,7 +20,7 @@ export default class Projects extends Component {
               <ListGroup>
                 <ListGroupItem>
                   <ListGroupItemHeading>
-                    <a href="https://ridetrackr.io" target="_blank" rel="noopener noreferrer">RideTrackr</a>
+                    <a href="https://get.ridetrackr.io" target="_blank" rel="noopener noreferrer">RideTrackr</a>
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     RideTrackr is a web application (soon-to-be native application)

@@ -1,13 +1,4 @@
 import React from "react";
-import {
-    Card,
-    CardImg,
-    CardBody,
-    ListGroup,
-    ListGroupItem,
-    ListGroupItemHeading,
-    ListGroupItemText
-} from "reactstrap";
 
 const Sources = props => {
     return (

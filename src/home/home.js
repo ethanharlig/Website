@@ -20,7 +20,7 @@ const Home = props => {
             <div className="col-md-3">
             </div>
             <div className="col-md-6">
-              <CardImg src={meAndTommy} style={{ maxWidth: 600 }} />
+              <CardImg src={meAndTommy} />
             </div>
           </div>
           <ListGroup>

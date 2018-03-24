@@ -16,7 +16,13 @@ const Home = props => {
       <h1 style={{ textAlign: "center" }}>About me</h1>
       <Card>
         <CardBody>
-          <CardImg src={meAndTommy} />
+          <div className="row">
+            <div className="col-md-3">
+            </div>
+            <div className="col-md-6">
+              <CardImg src={meAndTommy} style={{ maxWidth: 600 }} />
+            </div>
+          </div>
           <ListGroup>
             <ListGroupItem>
               <ListGroupItemHeading>

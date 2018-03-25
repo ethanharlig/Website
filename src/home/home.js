@@ -75,7 +75,7 @@ const Home = props => {
                 And I dabble with:
                 <ul>
                   <li>Node.js</li>
-                  <li>ReactJS (this site)</li>
+                  <li>React (this site)</li>
                   <li>NativeScript</li>
                 </ul>
                 <br />

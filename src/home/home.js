@@ -26,8 +26,7 @@ const Home = props => {
           <ListGroup>
             <ListGroupItem>
               <ListGroupItemHeading>
-                So who are you and just who do you think you are putting a huge
-                picture of you and your dog up there?
+                Who are you?
               </ListGroupItemHeading>
               <hr />
               <ListGroupItemText>

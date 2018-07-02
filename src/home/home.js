@@ -31,26 +31,8 @@ const Home = props => {
               </ListGroupItemHeading>
               <hr />
               <ListGroupItemText>
-                Howdy! My name is Ethan Harlig and I am a fourth-year student
-                studying computer science at California Polytechnic State
-                University, San Luis Obispo.
-              </ListGroupItemText>
-              <ListGroupItemText>
-                I am also an Associate Software Developer at{" "}
-                <a
-                  href="http://www.thinglogix.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ThingLogix
-                </a>, an IoT company. I architect and develop Internet of Things
-                solutions built on AWS.
-              </ListGroupItemText>
-              <ListGroupItemText>
-                I have a wonderful 12-year old dog named Tommy (pictured above)
-                who loves to sleep all day while I code. His aspirations in life
-                are to eat as much human food as possible, and sleep in as many
-                places as possible.
+                Howdy! My name is Ethan Harlig and I am a Cloud Systems Developer
+                at <a href="https://www.cloudreach.com" target="_blank" rel="noopener noreferrer" >Cloudreach</a> in Seattle!
               </ListGroupItemText>
             </ListGroupItem>
             <ListGroupItem>
@@ -84,9 +66,9 @@ const Home = props => {
                   <li>Lambda</li>
                   <li>API Gateway</li>
                   <li>DynamoDB</li>
-                  <li>IoT</li>
                   <li>S3</li>
                   <li>Kinesis</li>
+                  <li>IoT</li>
                   <li>And more!</li>
                 </ul>
               </ListGroupItemText>

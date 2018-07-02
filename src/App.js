@@ -20,7 +20,6 @@ class App extends Component {
             <Route path="/projects" component={Projects} />
             <Route path="/ticker" component={Ticker} />
             <Route path="/sources" component={Sources} />
-            <Route path="/ecofeminism" component={Ecofeminism} />
           </div>
         </Router>
       </div>

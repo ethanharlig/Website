@@ -6,7 +6,6 @@ import Home from './home/home';
 import Projects from './projects/projects';
 import Ticker from './ticker/ticker';
 import Sources from './sources/sources';
-import Ecofeminism from './ecofeminism/ecofeminism';
 
 class App extends Component {
   render() {

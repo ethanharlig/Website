@@ -1,4 +1,3 @@
 # Ethan Harlig's website
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
-
+This is the code for [my website.](ethanharlig.com)

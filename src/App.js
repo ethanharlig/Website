@@ -5,7 +5,7 @@ import AppNavbar from './navbar/navbar';
 import Home from './home/home';
 import Projects from './projects/projects';
 import Ticker from './ticker/ticker';
-import Sources from './sources/sources';
+import Cat from './cat/cat';
 
 class App extends Component {
   render() {
@@ -18,7 +18,7 @@ class App extends Component {
             <Route exact path="/" component={Home} />
             <Route path="/projects" component={Projects} />
             <Route path="/ticker" component={Ticker} />
-            <Route path="/sources" component={Sources} />
+            <Route path="/cat" component={Cat} />
           </div>
         </Router>
       </div>

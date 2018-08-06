@@ -3,7 +3,7 @@
 echo Building...
 npm run build
 echo Uploading new stuff...
-aws s3 --profile Personal sync build/ s3://ethanharlig.com --delete --exclude "*.DS_Store" --acl public-read
+aws s3 --profile personal sync build/ s3://ethanharlig.com --delete --exclude "*.DS_Store" --acl public-read
 echo Invalidating CloudFront cache...
-aws configure --profile Personal set preview.cloudfront true
-aws cloudfront --profile Personal create-invalidation --distribution-id E3U8ST1Z00HR4V --paths '/*'
+aws configure --profile personal set preview.cloudfront true
+aws cloudfront --profile personal create-invalidation --distribution-id E3U8ST1Z00HR4V --paths '/*'

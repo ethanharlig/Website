@@ -8,7 +8,7 @@ import {
   ListGroupItemHeading,
   ListGroupItemText
 } from "reactstrap";
-import meAndTommy from "../img/me-and-tommy.jpg";
+import me from "../img/me.jpg";
 
 const Home = props => {
   return (
@@ -20,7 +20,7 @@ const Home = props => {
             <div className="col-md-3">
             </div>
             <div className="col-md-6">
-              <CardImg src={meAndTommy} />
+              <CardImg src={me} />
             </div>
           </div>
           <ListGroup>

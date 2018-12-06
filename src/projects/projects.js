@@ -24,7 +24,7 @@ export default class Projects extends Component {
                   </ListGroupItemHeading>
                   <ListGroupItemText>
                     RideTrackr is a web application (soon-to-be native application)
-                    that allows organizations to easily maintain an Uber-like
+                    that allows organizations to easily maintain a distributed queued 
                     ride system. Users can become a driver for a set period of
                     time and can also request rides as a passenger.
                   </ListGroupItemText>
@@ -84,7 +84,7 @@ export default class Projects extends Component {
                     This Reddit Slackbot allows users to mention the bot in a
                     Slack channel, and the bot will respond with different
                     Reddit posts from arguments provided by the user. The bot,
-                    unfortunately, it not serverless, and runs on an AWS EC2
+                    unfortunately, is not serverless, and runs on an AWS EC2
                     server.
                   </ListGroupItemText>
                 </ListGroupItem>

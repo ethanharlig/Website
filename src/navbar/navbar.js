@@ -27,7 +27,7 @@ export default class AppNavbar extends Component {
     return (
       <div>
         <Navbar color="faded" light expand="md">
-          <NavbarBrand href="#">Ethan Harlig</NavbarBrand>
+          <NavbarBrand href="/">Ethan Harlig</NavbarBrand>
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>

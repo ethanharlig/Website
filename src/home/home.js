@@ -30,8 +30,8 @@ const Home = props => {
               </ListGroupItemHeading>
               <hr />
               <ListGroupItemText>
-                Howdy! My name is Ethan Harlig and I am a Cloud Systems Developer
-                at <a href="https://www.cloudreach.com" target="_blank" rel="noopener noreferrer" >Cloudreach</a> in Seattle!
+                Hey there! My name is Ethan Harlig and I am a Cloud Systems Developer
+                at <a href="https://www.cloudreach.com" target="_blank" rel="noopener noreferrer" >Cloudreach</a> in Seattle.
               </ListGroupItemText>
             </ListGroupItem>
             <ListGroupItem>
@@ -46,8 +46,6 @@ const Home = props => {
                   <li>Java</li>
                   <li>JavaScript</li>
                   <li>Typescript</li>
-                  <li>C (unfortunately)</li>
-                  <li>AngularJS</li>
                   <li>Angular 2+</li>
                   <li>MySQL</li>
                   <li>NoSQL</li>
@@ -60,14 +58,14 @@ const Home = props => {
                   <li>NativeScript</li>
                 </ul>
                 <br />
-                I also work a lot with AWS, specifically:
+                As an AWS certified Solutions Architect, I work a lot with AWS, specifically:
                 <ul>
                   <li>Lambda</li>
                   <li>API Gateway</li>
                   <li>DynamoDB</li>
+                  <li>IoT</li>
                   <li>S3</li>
                   <li>Kinesis</li>
-                  <li>IoT</li>
                   <li>And more!</li>
                 </ul>
               </ListGroupItemText>

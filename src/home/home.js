@@ -30,8 +30,8 @@ const Home = props => {
               </ListGroupItemHeading>
               <hr />
               <ListGroupItemText>
-                Hey there! My name is Ethan Harlig and I am a Cloud Systems Developer
-                at <a href="https://www.cloudreach.com" target="_blank" rel="noopener noreferrer" >Cloudreach</a> in Seattle.
+                Hey there! My name is Ethan Harlig and I am a Software Development Engineer
+                at <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer" >Amazon Web Services</a> in Seattle.
               </ListGroupItemText>
             </ListGroupItem>
             <ListGroupItem>
